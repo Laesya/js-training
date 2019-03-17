@@ -17,3 +17,4 @@ assert.strictEqual(arr[0], 4)
 assert.strictEqual(arr[1], '2')
 assert.strictEqual(arr.length, 2)
 // End of tests */
+
