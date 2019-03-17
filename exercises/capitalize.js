@@ -7,6 +7,11 @@
  *
  */
 
+function capitalize(sentence){
+    let FirstLetter = sentence.substring(0, 1);
+    let restSentence = sentence.substring(1);
+    return FirstLetter.toUpperCase() + restSentence.toLowerCase();
+}
 
 //* Begin of tests
 const assert = require('assert')

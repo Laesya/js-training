@@ -9,6 +9,10 @@
 
 // Your code :
 
+function getLength(variante){
+    return variante.length;
+}
+
 //* Begin of tests
 const assert = require('assert')
 

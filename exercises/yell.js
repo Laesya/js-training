@@ -6,9 +6,13 @@
  *
  */
 
-
+function yell(StringToReturn){
+    return StringToReturn.toUpperCase();
+}
 //* Begin of tests
 const assert = require('assert')
 
-assert.fail('You must write your own tests')
+assert.strictEqual(typeof yell, 'function')
+assert.deepStrictEqual(yell('je suis un poulet'), 'JE SUIS UN POULET')
+assert.deepStrictEqual(yell('vive la biere'), 'VIVE LA BIERE')
 // End of tests */
